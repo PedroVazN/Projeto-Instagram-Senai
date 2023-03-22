@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <style>
+        body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.imagem {
+  width: 45%;
+  text-align: center;
+}
+
+.imagem img {
+  max-width: 50%;
+  height: auto;
+}
+
+.formulario {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.formulario input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+  </style>
+  <body>
+    <div class="container">
+      <div class="imagem">
+        <img src="screenshot1-2x.png" alt="Imagem de Login">
+      </div>
+      <div class="formulario">
+        <form action="#" method="post">
+          <h2>Faça login na sua conta</h2>
+          <label for="usuario">Usuário:</label>
+          <input type="text" id="usuario" name="usuario">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha">
+          <input type="submit" value="Entrar">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
